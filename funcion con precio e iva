@@ -1,0 +1,10 @@
+
+public class funcionIVA {
+    public static void main(String[] args) {
+        double total = precio(2355);
+        System.out.println("el percio total con iva incluido es de: "+total);
+    }
+    static double precio(double dinero ){
+        return  dinero + 200;
+    }
+}
